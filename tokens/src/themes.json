@@ -1,0 +1,16 @@
+{
+  "theme": {
+    "light": {
+      "background": { "value": "{color.neutral.50.value}" },
+      "text": { "value": "{color.neutral.900.value}" },
+      "primary": { "value": "{color.primary.600.value}" },
+      "secondary": { "value": "{color.secondary.600.value}" }
+    },
+    "dark": {
+      "background": { "value": "{color.neutral.900.value}" },
+      "text": { "value": "{color.neutral.50.value}" },
+      "primary": { "value": "{color.primary.400.value}" },
+      "secondary": { "value": "{color.secondary.400.value}" }
+    }
+  }
+}
