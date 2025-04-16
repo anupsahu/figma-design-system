@@ -22,8 +22,8 @@ A React starter template that integrates Figma tokens, MUI design, and Tailwind 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/design-system.git
-   cd design-system
+   git clone https://github.com/anupsahu/figma-design-system.git
+   cd figma-design-system
    ```
 
 2. Install dependencies:
@@ -45,7 +45,9 @@ A React starter template that integrates Figma tokens, MUI design, and Tailwind 
 - `npm run preview` - Preview the production build
 - `npm run storybook` - Start Storybook for component development
 - `npm run build-storybook` - Build Storybook for deployment
-- `npm run build:tokens` - Build design tokens from Figma
+- `npm run tokens:build` - Build design tokens
+- `npm run tokens:import` - Import tokens from Figma
+- `npm run tokens:sync` - Build and sync tokens
 
 ## Design Tokens
 
@@ -62,7 +64,8 @@ To sync tokens from Figma:
 
 1. Export tokens from Figma using the [Tokens Studio for Figma](https://tokens.studio/) plugin
 2. Save the exported JSON file to the `tokens/src` directory
-3. Run `npm run build:tokens` to generate the CSS variables
+3. Run `npm run tokens:import` to convert Figma tokens
+4. Run `npm run tokens:build` to generate the CSS variables and TypeScript files
 
 ## Theme Switching
 
@@ -109,8 +112,8 @@ design-system/
 ├── tokens/
 │   ├── src/             # Source token files
 │   ├── build/           # Built token files
-│   ├── build.js         # Token build script
-│   └── config.js        # Style Dictionary configuration
+│   ├── build.mjs        # Token build script
+│   └── figma-to-tokens.mjs # Figma token converter
 ├── index.html           # HTML entry point
 ├── package.json         # Project dependencies and scripts
 ├── tailwind.config.js   # Tailwind CSS configuration
