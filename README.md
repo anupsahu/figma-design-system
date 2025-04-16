@@ -23,7 +23,7 @@ A React starter template that integrates Figma tokens, MUI design, and Tailwind 
 1. Clone the repository:
    ```bash
    git clone https://github.com/anupsahu/figma-design-system.git
-   cd figma-design-system
+   cd design-system
    ```
 
 2. Install dependencies:
