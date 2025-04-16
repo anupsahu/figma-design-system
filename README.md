@@ -23,7 +23,7 @@ A React starter template that integrates Figma tokens, MUI design, and Tailwind 
 1. Clone the repository:
    ```bash
    git clone https://github.com/anupsahu/figma-design-system.git
-   cd design-system
+   cd figma-design-system
    ```
 
 2. Install dependencies:
@@ -99,7 +99,7 @@ Storybook includes a theme switcher in the toolbar that allows you to preview co
 ## Project Structure
 
 ```
-design-system/
+figma-design-system/
 ├── .storybook/          # Storybook configuration
 ├── public/              # Public assets
 ├── src/
@@ -119,14 +119,6 @@ design-system/
 ├── tailwind.config.js   # Tailwind CSS configuration
 └── vite.config.ts       # Vite configuration
 ```
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## License
 
